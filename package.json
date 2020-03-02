@@ -1,0 +1,31 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "A simple restaurant homepage dinamically rendered using DOM manipulation",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabricio-garcia/restaurant-page.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "DOM",
+    "restaurant",
+    "homepage"
+  ],
+  "author": "Fabricio Garcia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabricio-garcia/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/fabricio-garcia/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
