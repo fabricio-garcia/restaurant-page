@@ -80,7 +80,7 @@ Contributions, issues and feature requests are welcome!
 
 Give a ⭐️ if you like this project!
 
-# 📝 License
+# License
 
 This project is licensed under the MIT License \
 Feel free to fork this project and improve it
