@@ -21,18 +21,18 @@
   </a>
 
   <h1 align="center">
-	Restaurant Homepage
+	Restaurant page
   </h1>
 
   <p align="center">
-    A simple restaurant homepage dynamically rendered using DOM manipulation
+    A simple restaurant page dynamically rendered using DOM manipulation
     <br />
 	  🖊️
     <a href="https://www.theodinproject.com/courses/javascript/lessons/restaurant-page">Assigment</a>
     🐞
-    <a href="https://github.com/fabricio-garcia/restaurant-homepage/issues">Report a Bug</a>
+    <a href="https://github.com/fabricio-garcia/restaurant-page/issues">Report a Bug</a>
     🙋‍♂️
-    <a href="https://github.com/fabricio-garcia/restaurant-homepage/issues">Request Feature</a>
+    <a href="https://github.com/fabricio-garcia/restaurant-page/issues">Request Feature</a>
   </p>
 </p>
 
@@ -71,32 +71,30 @@
 
 Contributions, issues and feature requests are welcome!
 
-# Show your support
-
-Give a ⭐️ if you like this project!
-
 # Acknowledgements
 
 - [Microverse](https://www.microverse.org/)
 - [The Odin Project](https://www.theodinproject.com/)
+
+# Show your support
+
+Give a ⭐️ if you like this project!
 
 # 📝 License
 
 This project is licensed under the MIT License \
 Feel free to fork this project and improve it
 
-Give a ⭐️ if you like this project!
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/fabricio-garcia/restaurant-homepage?style=plastic
-[contributors-url]: https://github.com/fabricio-garcia/restaurant-homepage/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/fabricio-garcia/restaurant-homepage?style=plastic
-[forks-url]: https://github.com/fabricio-garcia/restaurant-homepage/network/members
-[stars-shield]: https://img.shields.io/github/stars/fabricio-garcia/restaurant-homepage?style=plastic
-[stars-url]: https://github.com/fabricio-garcia/restaurant-homepage/stargazers
-[issues-open-shield]: https://img.shields.io/github/issues/fabricio-garcia/restaurant-homepage?style=plastic
-[issues-closed-url]: https://github.com/fabricio-garcia/restaurant-homepage/issues
-[issues-closed-shield]: https://img.shields.io/github/issues-closed/fabricio-garcia/restaurant-homepage?style=plastic
-[issues-open-url]: https://github.com/fabricio-garcia/restaurant-homepage/issues
+[contributors-shield]: https://img.shields.io/github/contributors/fabricio-garcia/restaurant-page?style=plastic
+[contributors-url]: https://github.com/fabricio-garcia/restaurant-page/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/fabricio-garcia/restaurant-page?style=plastic
+[forks-url]: https://github.com/fabricio-garcia/restaurant-page/network/members
+[stars-shield]: https://img.shields.io/github/stars/fabricio-garcia/restaurant-page?style=plastic
+[stars-url]: https://github.com/fabricio-garcia/restaurant-page/stargazers
+[issues-open-shield]: https://img.shields.io/github/issues/fabricio-garcia/restaurant-page?style=plastic
+[issues-closed-url]: https://github.com/fabricio-garcia/restaurant-page/issues
+[issues-closed-shield]: https://img.shields.io/github/issues-closed/fabricio-garcia/restaurant-page?style=plastic
+[issues-open-url]: https://github.com/fabricio-garcia/restaurant-page/issues
