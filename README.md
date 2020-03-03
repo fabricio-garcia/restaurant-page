@@ -82,7 +82,7 @@ Give a ⭐️ if you like this project!
 
 # License
 
-This project is licensed under the MIT License \
+This project is licensed under the Apache 2.0 License \
 Feel free to fork this project and improve it
 
 <!-- MARKDOWN LINKS & IMAGES -->
