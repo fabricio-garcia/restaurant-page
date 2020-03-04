@@ -90,10 +90,23 @@
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("console.log(\"Hello World\");\n\n//# sourceURL=webpack:///./src/index.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _page_load_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./page-load.js */ \"./src/page-load.js\");\n\nObject(_page_load_js__WEBPACK_IMPORTED_MODULE_0__[\"pageLoad\"])();\n\n//# sourceURL=webpack:///./src/index.js?");
+
+/***/ }),
+
+/***/ "./src/page-load.js":
+/*!**************************!*\
+  !*** ./src/page-load.js ***!
+  \**************************/
+/*! exports provided: pageLoad */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"pageLoad\", function() { return pageLoad; });\nconst pageLoad = () => {\n  const helloWorld = console.log('Hello World!');\n};\n\n\n\n//# sourceURL=webpack:///./src/page-load.js?");
 
 /***/ })
 
