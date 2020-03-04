@@ -1,5 +1,4 @@
 const pageLoad = () => {
-
   const content = document.getElementById('content');
   const imageContainer = document.createElement('aside');
   const mainContent = document.createElement('div');
@@ -23,7 +22,7 @@ const pageLoad = () => {
   aMenu.textContent = 'Menu';
   aContact.id = 'contact';
   aContact.textContent = 'Contact';
-  footer.textContent = 'Restaurant Page'
+  footer.textContent = 'Restaurant Page';
 
   content.appendChild(imageContainer);
   liHome.appendChild(aHome);
@@ -37,7 +36,6 @@ const pageLoad = () => {
   mainContent.appendChild(restaurantInfo);
   content.appendChild(mainContent);
   content.appendChild(footer);
+};
 
-}
-
-export { pageLoad }
+export default pageLoad;
