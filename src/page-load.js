@@ -1,6 +1,9 @@
+import Image from './img/joyce-romero-FP1nAPbqipw-unsplash.jpg';
+
 const pageLoad = () => {
   const content = document.getElementById('content');
   const imageContainer = document.createElement('aside');
+  const mainImage = document.createElement('img');
   const mainContent = document.createElement('div');
   const navBar = document.createElement('nav');
   const ul = document.createElement('ul');
@@ -15,6 +18,8 @@ const pageLoad = () => {
 
   imageContainer.classList.add('restaurant-logo');
   mainContent.classList.add('main-content');
+  mainImage.classList.add('main-img');
+  mainImage.src = Image;
 
   aHome.id = 'home';
   aHome.textContent = 'Home';
@@ -24,6 +29,7 @@ const pageLoad = () => {
   aContact.textContent = 'Contact';
   footer.textContent = 'Restaurant Page';
 
+  imageContainer.appendChild(mainImage);
   content.appendChild(imageContainer);
   liHome.appendChild(aHome);
   liMenu.appendChild(aMenu);

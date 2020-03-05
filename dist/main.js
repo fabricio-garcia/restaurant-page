@@ -86,6 +86,18 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./src/img/joyce-romero-FP1nAPbqipw-unsplash.jpg":
+/*!*******************************************************!*\
+  !*** ./src/img/joyce-romero-FP1nAPbqipw-unsplash.jpg ***!
+  \*******************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"a612b36062f42d3fe9b7594c66984c53.jpg\");\n\n//# sourceURL=webpack:///./src/img/joyce-romero-FP1nAPbqipw-unsplash.jpg?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -106,7 +118,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _pag
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nconst pageLoad = () => {\n  const content = document.getElementById('content');\n  const imageContainer = document.createElement('aside');\n  const mainContent = document.createElement('div');\n  const navBar = document.createElement('nav');\n  const ul = document.createElement('ul');\n  const liHome = document.createElement('li');\n  const aHome = document.createElement('a');\n  const liMenu = document.createElement('li');\n  const aMenu = document.createElement('a');\n  const liContact = document.createElement('li');\n  const aContact = document.createElement('a');\n  const restaurantInfo = document.createElement('section');\n  const footer = document.createElement('footer');\n  imageContainer.classList.add('restaurant-logo');\n  mainContent.classList.add('main-content');\n  aHome.id = 'home';\n  aHome.textContent = 'Home';\n  aMenu.id = 'menu';\n  aMenu.textContent = 'Menu';\n  aContact.id = 'contact';\n  aContact.textContent = 'Contact';\n  footer.textContent = 'Restaurant Page';\n  content.appendChild(imageContainer);\n  liHome.appendChild(aHome);\n  liMenu.appendChild(aMenu);\n  liContact.appendChild(aContact);\n  ul.appendChild(liHome);\n  ul.appendChild(liMenu);\n  ul.appendChild(liContact);\n  navBar.appendChild(ul);\n  mainContent.appendChild(navBar);\n  mainContent.appendChild(restaurantInfo);\n  content.appendChild(mainContent);\n  content.appendChild(footer);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (pageLoad);\n\n//# sourceURL=webpack:///./src/page-load.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _img_joyce_romero_FP1nAPbqipw_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/joyce-romero-FP1nAPbqipw-unsplash.jpg */ \"./src/img/joyce-romero-FP1nAPbqipw-unsplash.jpg\");\n\n\nconst pageLoad = () => {\n  const content = document.getElementById('content');\n  const imageContainer = document.createElement('aside');\n  const mainImage = document.createElement('img');\n  const mainContent = document.createElement('div');\n  const navBar = document.createElement('nav');\n  const ul = document.createElement('ul');\n  const liHome = document.createElement('li');\n  const aHome = document.createElement('a');\n  const liMenu = document.createElement('li');\n  const aMenu = document.createElement('a');\n  const liContact = document.createElement('li');\n  const aContact = document.createElement('a');\n  const restaurantInfo = document.createElement('section');\n  const footer = document.createElement('footer');\n  imageContainer.classList.add('restaurant-logo');\n  mainContent.classList.add('main-content');\n  mainImage.classList.add('main-img');\n  mainImage.src = _img_joyce_romero_FP1nAPbqipw_unsplash_jpg__WEBPACK_IMPORTED_MODULE_0__[\"default\"];\n  aHome.id = 'home';\n  aHome.textContent = 'Home';\n  aMenu.id = 'menu';\n  aMenu.textContent = 'Menu';\n  aContact.id = 'contact';\n  aContact.textContent = 'Contact';\n  footer.textContent = 'Restaurant Page';\n  imageContainer.appendChild(mainImage);\n  content.appendChild(imageContainer);\n  liHome.appendChild(aHome);\n  liMenu.appendChild(aMenu);\n  liContact.appendChild(aContact);\n  ul.appendChild(liHome);\n  ul.appendChild(liMenu);\n  ul.appendChild(liContact);\n  navBar.appendChild(ul);\n  mainContent.appendChild(navBar);\n  mainContent.appendChild(restaurantInfo);\n  content.appendChild(mainContent);\n  content.appendChild(footer);\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (pageLoad);\n\n//# sourceURL=webpack:///./src/page-load.js?");
 
 /***/ })
 
