@@ -6,26 +6,26 @@ const pageLoad = (() => {
     const navBar = document.createElement('nav');
     const ul = document.createElement('ul');
     const liHome = document.createElement('li');
-    const aHome = document.createElement('a');
+    const btnHome = document.createElement('button');
     const liMenu = document.createElement('li');
-    const aMenu = document.createElement('a');
+    const btnMenu = document.createElement('button');
     const liContact = document.createElement('li');
-    const aContact = document.createElement('a');
+    const btnContact = document.createElement('button');
 
-    aHome.classList.add('links');
-    aMenu.classList.add('links');
-    aContact.classList.add('links');
+    btnHome.classList.add('links');
+    btnMenu.classList.add('links');
+    btnContact.classList.add('links');
 
-    aHome.id = 'home';
-    aHome.textContent = 'Home';
-    aMenu.id = 'menu';
-    aMenu.textContent = 'Menu';
-    aContact.id = 'contact';
-    aContact.textContent = 'Contact';
+    btnHome.id = 'home';
+    btnHome.textContent = 'Home';
+    btnMenu.id = 'menu';
+    btnMenu.textContent = 'Menu';
+    btnContact.id = 'Contact';
+    btnContact.textContent = 'Contact';
 
-    liHome.appendChild(aHome);
-    liMenu.appendChild(aMenu);
-    liContact.appendChild(aContact);
+    liHome.appendChild(btnHome);
+    liMenu.appendChild(btnMenu);
+    liContact.appendChild(btnContact);
     ul.appendChild(liHome);
     ul.appendChild(liMenu);
     ul.appendChild(liContact);
@@ -37,7 +37,7 @@ const pageLoad = (() => {
     const content = document.getElementById('content');
     const imageContainer = document.createElement('aside');
 
-    imageContainer.classList.add('restaurant-logo');
+    imageContainer.classList.add('image-container');
 
     content.appendChild(imageContainer);
   };
@@ -45,15 +45,13 @@ const pageLoad = (() => {
   const renderRestaurantLogo = () => {
     const content = document.getElementById('content');
     const mainContent = document.createElement('div');
-    const restaurantInfo = document.createElement('section');
     const logo = document.createElement('img');
 
     mainContent.classList.add('main-content');
-
+    logo.setAttribute('id', 'restaurant-logo');
     logo.src = Logo;
-    restaurantInfo.appendChild(logo);
 
-    mainContent.appendChild(restaurantInfo);
+    mainContent.appendChild(logo);
     content.appendChild(mainContent);
   };
 

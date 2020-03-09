@@ -13,23 +13,30 @@ body {
 }
 
 .main-content {
-  display: grid;
-  grid-template-rows: 5% auto;
-  padding: 2em;
   background: linear-gradient(-45deg, #008c45, #f4f5f0, #cd212a);
   background-size: 400% 400%;
   animation: gradient 15s ease infinite;
   text-align: center;
 }
 
+button {
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
 /* Left image */
 
-.restaurant-logo {
+.image-container {
   overflow: hidden;
   background-size: cover;
   background-position: center;
   background-image: url("../img/lunch-table-5929.jpg");
   min-height: 100vh;
+
 }
 
 /* Navbar */
@@ -59,7 +66,7 @@ li {
   text-decoration: none;
   letter-spacing: 0.15em;
   display: inline-block;
-  padding: 0px 20px;
+  padding: 0px 25px;
   position: relative;
 }
 
@@ -83,11 +90,18 @@ li {
 
 /*  Restaurant logo */
 
-img {
+#restaurant-logo {
   position: relative;
   margin: auto;
-  top: 8em;
+  top: 9em;
   width: 80%;
+}
+
+#menu {
+  position: relative;
+  margin: auto;
+  top: 1em;
+  width: 58%;
 }
 
 /* Footer */
@@ -127,8 +141,13 @@ footer p {
 }
 
 @media (max-width: 1000px) {
-  img {
-    top: 14em;
+  #restaurant-logo {
+    top: 11em;
     width: 100%;
+  }
+
+  #menu {
+    top: 5em;
+    width: 90%;
   }
 }
