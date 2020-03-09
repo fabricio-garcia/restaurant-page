@@ -16,12 +16,12 @@ const pageLoad = (() => {
     btnMenu.classList.add('links');
     btnContact.classList.add('links');
 
-    btnHome.id = 'home';
+    btnHome.id = 'home-button';
     btnHome.textContent = 'Home';
-    btnMenu.id = 'menu';
+    btnMenu.id = 'menu-button';
     btnMenu.textContent = 'Menu';
     btnContact.id = 'Contact';
-    btnContact.textContent = 'Contact';
+    btnContact.textContent = 'contact-button';
 
     liHome.appendChild(btnHome);
     liMenu.appendChild(btnMenu);
