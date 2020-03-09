@@ -1,3 +1,7 @@
-import pageLoad from './page-load';
+import pageLoad from './modules/page-load';
+import './css/style.css';
 
-pageLoad();
+pageLoad.renderNavBar();
+pageLoad.renderMainPage();
+pageLoad.renderRestaurantLogo();
+pageLoad.renderFooter();
