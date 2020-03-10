@@ -16,7 +16,7 @@ window.addEventListener('load', () => {
     menu.showMenu();
   });
 
-  document.getElementById('home').addEventListener('click', () => {
+  document.getElementById('btnHome').addEventListener('click', () => {
     document.querySelector('.main-content').remove();
     pageLoad.renderRestaurantLogo();
   });
