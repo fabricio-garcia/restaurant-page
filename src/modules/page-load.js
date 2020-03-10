@@ -16,11 +16,11 @@ const pageLoad = (() => {
     btnMenu.classList.add('links');
     btnContact.classList.add('links');
 
-    btnHome.id = 'home-button';
+    btnHome.id = 'btnHome';
     btnHome.textContent = 'Home';
-    btnMenu.id = 'menu-button';
+    btnMenu.id = 'btnMenu';
     btnMenu.textContent = 'Menu';
-    btnContact.id = 'Contact';
+    btnContact.id = 'btnContact';
     btnContact.textContent = 'contact-button';
 
     liHome.appendChild(btnHome);

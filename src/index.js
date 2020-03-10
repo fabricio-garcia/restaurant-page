@@ -10,7 +10,7 @@ const renderPage = () => {
 };
 
 window.addEventListener('load', () => {
-  document.getElementById('menu').addEventListener('click', () => {
+  document.getElementById('btnMenu').addEventListener('click', () => {
     // document.getElementById('restaurant-logo').setAttribute('hidden', true);
     document.querySelector('.main-content').remove();
     menu.showMenu();
