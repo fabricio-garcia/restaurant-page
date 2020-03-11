@@ -1,7 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+}
+
 body {
   height: 100vh;
-  scroll-behavior: smooth;
-  text-rendering: optimizeSpeed;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px;
   line-height: 1.5;
 }
 
@@ -21,12 +36,12 @@ body {
 
 button {
   background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
 /* Left image */
 
@@ -36,7 +51,6 @@ button {
   background-position: center;
   background-image: url("../img/lunch-table-5929.jpg");
   min-height: 100vh;
-
 }
 
 /* Navbar */
@@ -45,6 +59,7 @@ nav {
   grid-column-end: 3;
   grid-row-start: 1;
   place-self: center;
+  padding: 15px 0;
 }
 
 ul {
@@ -105,7 +120,11 @@ li {
   width: 90%;
 }
 
-/*  Restaurant Contact */
+/*  Contact Info */
+
+#contact-info {
+  margin-top: 15em;
+}
 
 /* Footer */
 
