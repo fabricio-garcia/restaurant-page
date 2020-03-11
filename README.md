@@ -59,9 +59,19 @@
 - Linux/GNU
 - Love and Passion for code
 
+## Getting Started
+
+Run this commands: <br>
+`git clone git@github.com:fabricio-garcia/restaurant-page.git` <br>
+`cd restaurant-page` <br>
+`npm install` <br>
+`npm run start` <br>
+
+and go to http://localhost:8080/
+
 # Live Demo
 
-[Link](#)
+[Link](grieving-invention.surge.sh)
 
 # Author
 
