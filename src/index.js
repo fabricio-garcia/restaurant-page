@@ -14,7 +14,7 @@ const renderPage = () => {
 window.addEventListener('load', () => {
   document.getElementById('btnMenu').addEventListener('click', () => {
     document.querySelector('.main-content').remove();
-    menu.showMenu();
+    menu.renderMenu();
   });
 
   document.getElementById('btnContact').addEventListener('click', () => {

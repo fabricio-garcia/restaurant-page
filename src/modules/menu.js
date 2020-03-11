@@ -15,12 +15,8 @@ const menu = (() => {
     content.appendChild(mainContent);
   };
 
-  const showMenu = () => {
-    renderMenu();
-  };
-
   return {
-    showMenu,
+    renderMenu,
   };
 })();
 

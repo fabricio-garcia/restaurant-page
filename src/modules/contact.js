@@ -1,4 +1,4 @@
-const showContactInfo = () => {
+const renderContactInfo = () => {
   const content = document.getElementById('content');
   const mainContent = document.createElement('div');
   const contact = document.createElement('div');
@@ -35,8 +35,8 @@ const showContactInfo = () => {
   content.appendChild(mainContent);
 
   return {
-    showContactInfo,
+    renderContactInfo,
   };
 };
 
-export default showContactInfo;
+export default renderContactInfo;
