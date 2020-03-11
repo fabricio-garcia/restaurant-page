@@ -7,7 +7,7 @@ const menu = (() => {
     const menu = document.createElement('img');
 
     mainContent.classList.add('main-content');
-    menu.setAttribute('id', 'btnMenu');
+    menu.setAttribute('id', 'menu-image');
 
     menu.src = MenuPic;
 

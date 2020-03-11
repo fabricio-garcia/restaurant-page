@@ -21,7 +21,7 @@ const pageLoad = (() => {
     btnMenu.id = 'btnMenu';
     btnMenu.textContent = 'Menu';
     btnContact.id = 'btnContact';
-    btnContact.textContent = 'contact-button';
+    btnContact.textContent = 'contact';
 
     liHome.appendChild(btnHome);
     liMenu.appendChild(btnMenu);

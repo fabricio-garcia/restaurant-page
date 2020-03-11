@@ -97,12 +97,15 @@ li {
   width: 80%;
 }
 
-#menu {
+/*  Restaurant Menu */
+#menu-image {
   position: relative;
   margin: auto;
-  top: 1em;
-  width: 58%;
+  top: 2em;
+  width: 90%;
 }
+
+/*  Restaurant Contact */
 
 /* Footer */
 
@@ -137,17 +140,5 @@ footer p {
   }
   100% {
     background-position: 0% 50%;
-  }
-}
-
-@media (max-width: 1000px) {
-  #restaurant-logo {
-    top: 11em;
-    width: 100%;
-  }
-
-  #menu {
-    top: 7em;
-    width: 90%;
   }
 }
