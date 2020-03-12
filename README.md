@@ -71,7 +71,7 @@ and go to http://localhost:8080/
 
 # Live Demo
 
-[Link](grieving-invention.surge.sh)
+[Link](restaurant-page-js.surge.sh)
 
 # Author
 
