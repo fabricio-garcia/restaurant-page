@@ -71,7 +71,7 @@ and go to http://localhost:8080/
 
 # Live Demo
 
-[Link](restaurant-page-js.surge.sh)
+[Link](https://restaurant-page-js.netlify.com/)
 
 # Author
 
